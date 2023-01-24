@@ -24,6 +24,7 @@ public class BirdManVFX : MonoBehaviour
     public GameObject secondEnemy;
     public GameObject bird; //the bird mesh inside theBird
     public GameObject buildUP; //prefab
+    public GameObject blingTrail; //prefab
 
     private GameObject previousTarget;
     private GameObject target;
@@ -65,6 +66,7 @@ public class BirdManVFX : MonoBehaviour
         bird.transform.rotation = Quaternion.Euler(90f, 0f, 0f);
         birdAnim = bird.GetComponent<Animator>();
         buildUP.SetActive(false);
+        blingTrail.SetActive(false);
         // ABT ENEMY
         if(firstEnemy!=null&&secondEnemy!=null){
             enemySparks = firstEnemy.transform.GetChild(effectPos).gameObject;
@@ -137,6 +139,7 @@ public class BirdManVFX : MonoBehaviour
         target = firstEnemy;
         sparks.SetActive(true);
         sparks2.SetActive(true);
+        blingTrail.SetActive(true);
         yield return new WaitForSeconds(dipWaitTime); //.4 wait time before apply low dip
         rb.AddForce(-transform.up * force, ForceMode.Impulse);
 //Phase2----------------------------------------------------------  
@@ -173,5 +176,6 @@ public class BirdManVFX : MonoBehaviour
         enemySparks.SetActive(false);
         enemySparks2.SetActive(false);
         buildUP.SetActive(false);
+        blingTrail.SetActive(false);
     }
 }
