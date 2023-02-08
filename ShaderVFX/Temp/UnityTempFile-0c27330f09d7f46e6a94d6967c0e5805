@@ -345,6 +345,7 @@
 "Assets/Projects/ProjectGarna/Ability_Garna.cs"
 "Assets/Projects/ProjectGarna/Enemy.cs"
 "Assets/Projects/ProjectGarna/Stinger.cs"
+"Assets/Projects/ThemedSingleEffects/TheVoidOFDead.cs"
 "Assets/Scripts/SimpleCameraController.cs"
 "Assets/Scripts/SimpleMovement.cs"
 "Assets/Shaders/ToonShader/AwesomeToonHelper.cs"
