@@ -11,8 +11,12 @@ public class TheVoidOFDead : MonoBehaviour
     [SerializeField] private int speed;
     [SerializeField] private float force;
     [SerializeField] private GameObject puddle;
+    public GameObject ForPuddle_Big;
+    public GameObject ForPuddle_Small;
     Animator puddleAnim;
-    [SerializeField] private GameObject inkCircle;
+    [SerializeField] private GameObject Streak;
+    //Animator streakAnim;
+    [SerializeField] private GameObject InkCircle;  //Main Effect Object
 
     public List<GameObject> Ghost = new List<GameObject>();
     public List<bool> Ready = new List<bool>();
@@ -22,9 +26,12 @@ public class TheVoidOFDead : MonoBehaviour
     void Start()
     {
         puddleAnim = puddle.GetComponent<Animator>();
+        //streakAnim = Streak.GetComponent<Animator>();
+        InkCircle.SetActive(false);
         puddle.SetActive(false);
-        inkCircle.SetActive(false);
-        puddle.SetActive(true);
+        Streak.SetActive(false);
+        ForPuddle_Big.SetActive(false);
+        ForPuddle_Small.SetActive(false);
     }
 
     void Update()
@@ -93,7 +100,7 @@ public class TheVoidOFDead : MonoBehaviour
         //ranNum = Random.Range(0,2);
     }
     IEnumerator GhostSend(){
-        
+        puddle.SetActive(true);
         //yield return new WaitForSeconds(.5f);
         
         yield return new WaitForSeconds(.5f);
@@ -111,13 +118,15 @@ public class TheVoidOFDead : MonoBehaviour
         yield return new WaitForSeconds(1f);
         CreateGhost(3);
         puddleAnim.SetTrigger("p4");
-
-        yield return new WaitForSeconds(1f);
         
-        puddleAnim.SetTrigger("p5");
+        yield return new WaitForSeconds(1f);
+        //ForPuddle.SetActive(true);
+        puddleAnim.SetTrigger("p5"); //last rebut
         //yield return new WaitForSeconds(.5f);
         //CreateGhost(4);
-        inkCircle.SetActive(true);
+        InkCircle.SetActive(true);
+        yield return new WaitForSeconds(.9f);
+        Streak.SetActive(true);
         //yield return new WaitForSeconds(.2f);
         
         yield return new WaitForSeconds(5f);
@@ -134,6 +143,10 @@ public class TheVoidOFDead : MonoBehaviour
         Ghost.Clear();
         Ready.TrimExcess();
         Ready.Clear();
-
+        yield return new WaitForSeconds(1f);    
+        InkCircle.SetActive(false);
+        ForPuddle_Big.SetActive(false);
+        ForPuddle_Small.SetActive(false);
+        puddle.SetActive(false);
     }
 }
