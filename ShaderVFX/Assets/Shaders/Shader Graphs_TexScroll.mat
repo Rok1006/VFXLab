@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Shader Graphs_TexScroll
-  m_Shader: {fileID: -6465566751694194690, guid: e2285de942d364cafa44988db3d2d166,
+  m_Shader: {fileID: -6465566751694194690, guid: e7491ae964b2b4d11a93a852133f6f84,
     type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -70,12 +70,20 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - Vector1_1d0bbc8a75bf442eb38211bc26d58cad: -2.6
+    - Vector1_2DD1B23A: 0
     - Vector1_4a8001b8643b40289f5842b00da32bf4: -20
+    - Vector1_722C4752: 1
     - Vector1_74fcf2bc82164dc192b2f08c1d4f639e: 0
+    - Vector1_8B34E93B: 0
+    - Vector1_C1B20AA0: 0.2
+    - Vector1_C9E8FD04: 2
+    - Vector1_D1722A3B: 0.7
     - Vector1_aef28a0400da4a908966c1ab9a79e337: 6
     - Vector1_ebc51397b3d14969a055e68b64fe5123: 3
     m_Colors:
+    - Color_2F2E17BC: {r: 0, g: 0.4056604, b: 0.2816433, a: 0.6745098}
     - Color_2f1d1d23b53f4c5c9edd17a1cd620ec2: {r: 1, g: 0.4825854, b: 0.0235849, a: 1}
     - Color_70ab9ce3b62c459bbcf6f3a6e197efb0: {r: 0.004716992, g: 0.9912377, b: 1,
         a: 1}
+    - Color_B0D2D9C3: {r: 0.16905482, g: 0.2735849, b: 0.24263069, a: 1}
   m_BuildTextureStacks: []

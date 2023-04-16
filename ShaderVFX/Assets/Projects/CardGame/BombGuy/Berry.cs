@@ -20,7 +20,7 @@ public class Berry : MonoBehaviour
     void Update()
     {
         if(this.transform.position.z >= target.transform.position.z){
-            Invoke("AutoDestruct", .5f);
+            Invoke("AutoDestruct", .1f);
         }
         if(move){
             this.transform.Rotate(Vector3.left * -50 * 5 * Time.deltaTime); 
@@ -37,6 +37,7 @@ public class Berry : MonoBehaviour
         move = true;
     }
     void AutoDestruct(){
-        Destroy(this.gameObject, .5f);
+        //Destroy(this.gameObject, .5f);
+        this.gameObject.SetActive(false);
     }
 }

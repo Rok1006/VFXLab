@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: BookSkin
+  m_Shader: {fileID: -6465566751694194690, guid: ecdd9c04d1eda4f8da9aaed7c2b7caf1,
+    type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_a2ef4913e0054345ba4c06457bf3ca55:
+        m_Texture: {fileID: 2800000, guid: 24aebf035d8cb4a0692f7ff3c8997c1d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_4eec2578f07349c7a369603f591f2c4d: 4.4
+    - Vector1_8674a6312f0d49eb82e8ce283a770d69: 0.26
+    - Vector1_b47043de51404e9184933363b150e041: 0.1
+    - Vector1_baa79dd73ca7468693448dda051c4a43: 2.77
+    - Vector1_bb97ff9447064390b283512f79837b66: 0.4
+    m_Colors:
+    - Color_1ee19ef1ae374b45b579b86f51659c9c: {r: 1, g: 0.43867922, b: 0.43867922,
+        a: 0}
+    - Color_51c4be5490464966b4e3bfbb41750515: {r: 5.6798053, g: 5.6798053, b: 5.6798053,
+        a: 1}
+    - Color_7f018da70dc8427aa7f76fb0df435485: {r: 0.49056602, g: 0.15966536, b: 0.15966536,
+        a: 0}
+  m_BuildTextureStacks: []

@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MagicGlobe
+  m_Shader: {fileID: -6465566751694194690, guid: 5cd7a282629f6466190caa2e834121f9,
+    type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_70d5812bd8b5471998040b2bbc288077:
+        m_Texture: {fileID: 2800000, guid: dfc770b8b558c40da95a6b73c2b15393, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_9dff150a4e984decb8a0ac3116b5724b_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 4fd8b402b647b4322a3e23b33cca2420, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_103b4cd123044dbba64a2bac4684fc23: 1
+    - Vector1_58e660001afa46008400d2d75d07d109: 1
+    - Vector1_68583c146fe141a4b31d172aee1bc9c8: 0.66
+    - Vector1_82696386276045c8af92f8a14d2858ac: 0.23
+    - Vector1_acf3d6d5635b4194a1e9a1e05da2afa5: 2.28
+    m_Colors:
+    - Color_0fdfb8fc4476455389c4320d453cf41c: {r: 0, g: 0.5471698, b: 0.44768435,
+        a: 0}
+    - Color_ea8f53d47bb3463c90012e4943328e9c: {r: 12.083753, g: 12.083753, b: 12.083753,
+        a: 1}
+    - Color_fd66f5d8b5ed4e5a99c5114f03fe9b46: {r: 3.031433, g: 1.2125733, b: 1.2125733,
+        a: 1}
+    - Vector2_276cd02b00f84dbd800a7626aa174e4f: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - Vector2_80362eb8988448d78463409ec7357b0e: {r: 6.36, g: -3.41, b: 0, a: 0}
+  m_BuildTextureStacks: []

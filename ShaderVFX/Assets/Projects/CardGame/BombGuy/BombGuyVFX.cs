@@ -93,7 +93,7 @@ public class BombGuyVFX : MonoBehaviour
         yield return new WaitForSeconds(0);
         if(currentState == AbilityState.MAIN&&enemy.Count>0){
             BerryCreate(smallBerry, enemy[0]);
-            yield return new WaitForSeconds(.1f);
+            yield return new WaitForSeconds(.2f);
             BerryCreate(smallBerry, enemy[1]);
             yield return new WaitForSeconds(.2f);
             BerryCreate(smallBerry, enemy[2]);

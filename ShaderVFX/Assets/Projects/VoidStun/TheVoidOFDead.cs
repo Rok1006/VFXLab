@@ -19,6 +19,11 @@ public class TheVoidOFDead : MonoBehaviour
     //Animator streakAnim;
     [SerializeField] private GameObject InkCircle;  //Main Effect Object
     [SerializeField] private GameObject StunEffect;
+    public Animator StunAnim;
+    [SerializeField] private GameObject StunRingBurst;
+    [SerializeField] private GameObject RockThing;
+    [SerializeField] private Animator rockAnim;
+    [SerializeField] private GameObject RingFlow;
 
     public List<GameObject> Ghost = new List<GameObject>();
     public List<bool> Ready = new List<bool>();
@@ -38,7 +43,10 @@ public class TheVoidOFDead : MonoBehaviour
         ForPuddle_Small.SetActive(false);
         StunEffect.SetActive(false);
         ForeImpact.SetActive(false);
+        StunRingBurst.SetActive(false);
         weaponAnim = weapon.GetComponent<Animator>();
+        RockThing.SetActive(false);
+        RingFlow.SetActive(false);
     }
 
     void Update()
@@ -47,6 +55,11 @@ public class TheVoidOFDead : MonoBehaviour
             //StartCoroutine("GhostSend"); 
             weaponAnim.SetTrigger("move");
         }
+        if (StunAnim.GetCurrentAnimatorStateInfo(0).IsName("Stun_Off"))
+        {
+            StunRingBurst.SetActive(true);
+        }
+
         //if(Ready.Count>1){
         //}
         // if(Ghost!=null&&Ghost[Ghost.Count].transform.position == EnemyReceivePt.transform.position){
@@ -83,7 +96,7 @@ public class TheVoidOFDead : MonoBehaviour
                 Rigidbody rb = Ghost[i].GetComponent<Rigidbody>();
                 int ranNum = Random.Range(0,2);;
                 if(ranNum==0){
-                    rb.AddForce(new Vector3(0,0,-force), ForceMode.Impulse);
+                    rb.AddForce(new Vector3(1,force,-force), ForceMode.Impulse);
                 }else{
                     rb.AddForce(new Vector3(0,0,force), ForceMode.Impulse);
                 }
@@ -118,15 +131,15 @@ public class TheVoidOFDead : MonoBehaviour
         CreateGhost(0);
         yield return new WaitForSeconds(.1f);
         puddleAnim.SetTrigger("p1");
-        yield return new WaitForSeconds(.5f);
+        yield return new WaitForSeconds(.5f); //1
         CreateGhost(1);
         puddleAnim.SetTrigger("p2");
         
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(.5f); //1
         CreateGhost(2);
         puddleAnim.SetTrigger("p3");
         
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(.5f);
         CreateGhost(3);
         puddleAnim.SetTrigger("p4");
         
@@ -140,8 +153,14 @@ public class TheVoidOFDead : MonoBehaviour
         yield return new WaitForSeconds(.9f);
         Streak.SetActive(true);
         yield return new WaitForSeconds(.7f);
+        RockThing.SetActive(true);
+        RingFlow.SetActive(true);
         StunEffect.SetActive(true);
-        yield return new WaitForSeconds(5f);
+        yield return new WaitForSeconds(3f);
+        StunAnim.SetTrigger("Off");
+        rockAnim.SetTrigger("end");
+        yield return new WaitForSeconds(2f);
+
         StartCoroutine("Reset"); 
     }
 
@@ -163,7 +182,8 @@ public class TheVoidOFDead : MonoBehaviour
         ForPuddle_Big.SetActive(false);
         ForPuddle_Small.SetActive(false);
         puddle.SetActive(false);
-        StunEffect.SetActive(false);
         ForeImpact.SetActive(false);
+        yield return new WaitForSeconds(2f);
+        StunEffect.SetActive(false);
     }
 }
