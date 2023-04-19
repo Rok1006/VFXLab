@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: BookSkin
+  m_Name: WaterBook
   m_Shader: {fileID: -6465566751694194690, guid: ecdd9c04d1eda4f8da9aaed7c2b7caf1,
     type: 3}
   m_ShaderKeywords: 
@@ -43,7 +43,7 @@ Material:
     - Vector1_baa79dd73ca7468693448dda051c4a43: 2.77
     - Vector1_bb97ff9447064390b283512f79837b66: 0.4
     m_Colors:
-    - Color_1ee19ef1ae374b45b579b86f51659c9c: {r: 1, g: 0.43867922, b: 0.43867922,
+    - Color_1ee19ef1ae374b45b579b86f51659c9c: {r: 0.19975968, g: 0.6320754, b: 0.5683141,
         a: 0}
     - Color_51c4be5490464966b4e3bfbb41750515: {r: 5.6798053, g: 5.6798053, b: 5.6798053,
         a: 1}

@@ -93,28 +93,36 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - Boolean_c637c18c1c8f495e87f081a72f60ba21: 0
+    - Boolean_f4fd9288ff364b509698ee9d2b910891: 0
     - Vector1_17c53eb9635e4520a9d07934e826455b: 2
     - Vector1_2b4e2627d56d48309674e91e06e873af: -1.65
     - Vector1_688aea24b5f2485ea09d5f8ae2a41fc2: 4.8
     - Vector1_6d1fd685edaa47b1adb7aa703f048858: 2.46
     - Vector1_71ba9e96d94a4ae788e5090ca6eeac65: 0.654
+    - Vector1_7cef3ecd75cb4dd7a34635e35e3b33d1: 4.85
+    - Vector1_866b533d0ab044848d0a0d24495df23d: 1
     - Vector1_98f319d1decb419e8a61c6d55d0b4e09: 1
-    - Vector1_c5026a5feda7449abb71cb88ee46123d: 4.92
+    - Vector1_ab1f7ad1c1a442abb2b654f98dcdefd0: 0.57
+    - Vector1_c5026a5feda7449abb71cb88ee46123d: 7.86
     - Vector1_cd23bd478c88449e80abc407f007b47f: 1.13
     - Vector1_cffa2365f05649d2b00478b3e82e9926: -0.1
-    - Vector1_d13c1232854a4474b20b79bd43991057: 5.03
+    - Vector1_d13c1232854a4474b20b79bd43991057: 3.17
     - Vector1_d524420c104d4ab6b71d9372141f0376: 0.3
     - Vector1_f59cfa7cc13546d198ff32b414b665ac: 0
+    - Vector1_fa90fb15b8e04021a985da696bf360eb: -6.28
+    - Vector1_fde5d5c252e54be692c33eb3111bd8cf: 9
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
     - _Cull: 2
-    - _CutOff_Height: 0.54
+    - _CutOff_Height: -0.19
     - _Cutoff: 0.5
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
+    - _DissolveAmt: 0.44
     - _DstBlend: 0
     - _EdgeWidth: 0.05
     - _EnvironmentReflections: 1
