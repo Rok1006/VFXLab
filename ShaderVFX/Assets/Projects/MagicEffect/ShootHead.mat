@@ -56,7 +56,7 @@ Material:
     - Vector1_f9eb66b7700d4452853317fe582524fc: 0.03
     - Vector1_fea9170c9e294c8fad002a4f8aa047ff: 0.79
     - _BaseHeight: 0.82
-    - _CutOff: 1.07
+    - _CutOff: 0.82
     - _CutOff_Height: 9.17
     - _EdgeWidth: 0.023
     - _NoiseScale: 100
