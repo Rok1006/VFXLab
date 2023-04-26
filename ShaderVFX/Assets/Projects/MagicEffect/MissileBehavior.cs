@@ -17,8 +17,14 @@ public class MissileBehavior : MonoBehaviour
 
     Quaternion rotation;
     ParticleSystem loopFX, impactFX;
+    public int explosionIndex;
 
     bool hasTurned = false, isDead = false;
+    [SerializeField] private GameObject FrontWhite;
+    [SerializeField] private GameObject Tunnel;
+    [SerializeField] private GameObject Head;
+    [SerializeField] private GameObject Trail;
+    [SerializeField] private GameObject BaseTrail;
     void Start()
     {
      //   loopFX = transform.Find("MissileLoop").GetComponent<ParticleSystem>();
@@ -29,7 +35,7 @@ public class MissileBehavior : MonoBehaviour
 
         var rot = transform.rotation.eulerAngles;
         rot.y += 90;
-        rot.x = Random.Range(-150, -150); //210
+        rot.x = Random.Range(-150, -170); //210
         transform.rotation = Quaternion.Euler(rot);
         Debug.Log(rot);
     }
@@ -51,7 +57,8 @@ public class MissileBehavior : MonoBehaviour
             transform.rotation = Quaternion.Slerp(transform.rotation, rotation, rotationSpeed * Time.deltaTime);
 
             transform.Translate(transform.forward * afterTurnSpeed * Time.deltaTime, Space.World);
-
+            //transform.position.y = 0;
+            //transform.position = new Vector3(transform.position.x, goingToPosition.y, transform.position.z);
             distance = Vector3.Distance(transform.position, goingToPosition);
             Debug.Log(distance);
             if (distance <= 1f)
@@ -86,9 +93,14 @@ public class MissileBehavior : MonoBehaviour
         isDead = true;
         // loopFX.Stop();
         // impactFX.Play();
-        ME_Sc.WaterExplode(1);
+        ME_Sc.WaterExplode(explosionIndex);
         Debug.Log("Boom");
-        Destroy(gameObject, .1f);
+        FrontWhite.SetActive(false);
+        Tunnel.SetActive(false);
+        Head.SetActive(false);
+        BaseTrail.SetActive(false);
+        Trail.SetActive(false);
+        Destroy(this.gameObject, .5f);
 
     }
 

@@ -234,7 +234,7 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.55
+  m_Time: 0.35
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 2
@@ -363,7 +363,7 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.73
+  m_Time: 0.5
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 2.5
@@ -466,8 +466,8 @@ ParticleSystem:
   cullingMode: 0
   ringBufferMode: 0
   ringBufferLoopRange: {x: 0, y: 1}
-  looping: 1
-  prewarm: 1
+  looping: 0
+  prewarm: 0
   playOnAwake: 1
   useUnscaledTime: 0
   autoRandomSeed: 1
@@ -534,9 +534,9 @@ ParticleSystem:
     enabled: 1
     startLifetime:
       serializedVersion: 2
-      minMaxState: 0
-      scalar: 1
-      minScalar: 4.45
+      minMaxState: 3
+      scalar: 0.91
+      minScalar: 0.21
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -588,7 +588,7 @@ ParticleSystem:
     startSpeed:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 1.27
+      scalar: 1
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -705,7 +705,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 3
       scalar: 0.27
-      minScalar: 0.48
+      minScalar: 0.69
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -1020,7 +1020,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     randomizeRotationDirection: 0
-    maxNumParticles: 57
+    maxNumParticles: 100
     size3D: 0
     rotation3D: 0
     gravityModifier:
@@ -1285,7 +1285,7 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 2.47
+      scalar: 10.85
       minScalar: 10
       maxCurve:
         serializedVersion: 2
@@ -1338,7 +1338,7 @@ ParticleSystem:
     rateOverDistance:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 4.26
+      scalar: 0.82
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -5295,12 +5295,18 @@ MonoBehaviour:
   destWithOffset: {x: 0, y: 0, z: 0}
   collisionTagsToCheck: []
   duration: 10
-  rotationSpeed: 13
-  beforeTurnSpeed: 60
-  afterTurnSpeed: 50
+  rotationSpeed: 7.93
+  beforeTurnSpeed: 70
+  afterTurnSpeed: 60
   defaultDestinationDistance: 5
   distanceBeforeTurn: 2
   destroyDelay: 0
+  explosionIndex: 1
+  FrontWhite: {fileID: 7689459077759569345}
+  Tunnel: {fileID: 2835455073075545157}
+  Head: {fileID: 2835455072385509441}
+  Trail: {fileID: 3141514229895818696}
+  BaseTrail: {fileID: 3141514230607484098}
 --- !u!1 &7689459077759569345
 GameObject:
   m_ObjectHideFlags: 0

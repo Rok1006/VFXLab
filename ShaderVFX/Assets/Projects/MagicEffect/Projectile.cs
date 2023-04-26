@@ -14,10 +14,20 @@ public class Projectile : MonoBehaviour
     private bool currentProjectile;
     Quaternion rotation;
     Vector3 faceDirection;
+    public int explosionIndex;
+
+    [SerializeField] private GameObject FrontWhite;
+    [SerializeField] private GameObject Tunnel;
+    [SerializeField] private GameObject Head;
+    [SerializeField] private GameObject Trail;
+    [SerializeField] private GameObject BaseTrail;
     void Start()
     {
         currentProjectile = true;
         ME_Sc = GameObject.Find("Player#").GetComponent<MagicEffect>();
+         faceDirection = target.position - transform.position;
+         rotation = Quaternion.LookRotation(-faceDirection);
+         transform.rotation = rotation;
     }
 
     void Update()
@@ -34,8 +44,16 @@ public class Projectile : MonoBehaviour
 //------------
         if (Vector3.Distance(this.transform.position, target.position) < stoppingDistance)
         {
-            ME_Sc.WaterExplode(0);
-            Destroy(this.gameObject, .1f);
+            ME_Sc.WaterExplode(explosionIndex);
+            FrontWhite.SetActive(false);
+            Tunnel.SetActive(false);
+            Head.SetActive(false);
+            BaseTrail.SetActive(false);
+            Trail.SetActive(false);
+            Destroy(this.gameObject, .5f);
         }
+    }
+    void DestroyThis(){
+        Destroy(this.gameObject, .1f);
     }
 }

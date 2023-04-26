@@ -4,7 +4,10 @@ using UnityEngine;
 
 public class MagicEffect : MonoBehaviour
 {
+    [SerializeField]private GameObject AllCam;
+    bool CamSwitch = true;
     [Header("WaterEffect")]
+    [SerializeField] private KeyCode input_SmallWaterAttack;
     [SerializeField] private KeyCode input_WaterAttack;
     [SerializeField]private GameObject Portal;
     [SerializeField]private Animator PortalAnim;
@@ -22,10 +25,13 @@ public class MagicEffect : MonoBehaviour
     [Header("Attack")]
     [SerializeField] private GameObject CurvedProjectile; // prefab for the projectile to be spawned
     [SerializeField] private GameObject StraightProjectile;
+    [SerializeField] private GameObject SmallProjectile;
     [Header("For Straight")]
+    [SerializeField] private Transform Origin;
     [SerializeField] private Transform spawnPoint; // the point from which the projectiles will be spawned
     [SerializeField] private Transform target; // the target towards which the projectiles will curve
     [SerializeField] private float projectileSpeed = 10f; // the speed of the projectile
+    [SerializeField] private float SmallProjectileSpeed = 10f;
     [SerializeField] private float curveStrength = 5f; // the strength of the curve
 
     bool up = false;
@@ -45,14 +51,29 @@ public class MagicEffect : MonoBehaviour
         Portal.SetActive(false);
         ExplosionImpact[0].SetActive(false);
         ExplosionImpact[1].SetActive(false);
+        ExplosionImpact[2].SetActive(false);
+        AllCam.SetActive(true);
     }
 
     void Update()
     {
+        if(Input.GetKeyDown(KeyCode.M)){
+            if(CamSwitch){
+                AllCam.SetActive(false);
+                CamSwitch = false;
+            }else{ //false
+                AllCam.SetActive(true);
+                CamSwitch = true;
+            }
+            
+        }
         if(Input.GetKeyDown(input_WaterAttack)){
             //StartCoroutine("WaterAttack"); 
             //weaponAnim.SetTrigger("move");
             Portal.SetActive(true);
+        }
+        if(Input.GetKeyDown(input_SmallWaterAttack)){
+            CreateStraightBullet(SmallProjectile,Origin,target,SmallProjectileSpeed);
         }
         if (PortalAnim.GetCurrentAnimatorStateInfo(0).IsName("Portal_BookUp")&&!up)
         {
@@ -94,11 +115,6 @@ public class MagicEffect : MonoBehaviour
         ProjectileSc.target = _targetPt;
         var destinationWithOffset = target.position;
         ProjectileSc.GetComponent<MissileBehavior>().destWithOffset = destinationWithOffset;
-        // ProjectileSc.spawnPoint = _spawnPoint;
-        // ProjectileSc.target = _targetPt;
-        // ProjectileSc.projectileSpeed = _speed;
-        // ProjectileSc.curveStrength = _curveStregth;
-        
 
     }
     void CreateStraightBullet(GameObject _prefab, Transform _spawnPoint, Transform _targetPt, float _speed){
@@ -117,11 +133,12 @@ public class MagicEffect : MonoBehaviour
 
     public void WaterExplode(int index){
         ExplosionImpact[index].SetActive(true);
-        Invoke("ExplodeOff",5f);
+        Invoke("ExplodeOff",3f);
     }
     void ExplodeOff(){
         ExplosionImpact[0].SetActive(false);
         ExplosionImpact[1].SetActive(false);
+        ExplosionImpact[2].SetActive(false);
         MGAnim.SetTrigger("perish");
         bookAnim.SetTrigger("Close");
         Portal.SetActive(false);
