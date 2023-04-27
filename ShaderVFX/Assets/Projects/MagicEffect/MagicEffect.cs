@@ -20,7 +20,7 @@ public class MagicEffect : MonoBehaviour
     Animator WGAnim;
     [SerializeField]private GameObject WaterDrop;
     [SerializeField]private GameObject WaterSplat;
-    [SerializeField]private GameObject[] ExplosionImpact;
+    public GameObject[] ExplosionImpact;
 
     [Header("Attack")]
     [SerializeField] private GameObject CurvedProjectile; // prefab for the projectile to be spawned
