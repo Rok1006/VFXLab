@@ -526,8 +526,8 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1014.0000610351563,
-            "y": 514.0,
+            "x": -986.0000610351563,
+            "y": 523.5,
             "width": 139.0,
             "height": 166.0
         }
@@ -1949,8 +1949,8 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1295.0,
-            "y": 514.0,
+            "x": -1345.5,
+            "y": 502.0000305175781,
             "width": 145.00001525878907,
             "height": 128.5
         }
@@ -2522,8 +2522,8 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1133.0,
-            "y": 462.0,
+            "x": -1167.5001220703125,
+            "y": 449.0,
             "width": 119.00000762939453,
             "height": 149.0
         }
