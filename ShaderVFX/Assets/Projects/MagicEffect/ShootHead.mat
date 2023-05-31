@@ -50,13 +50,13 @@ Material:
     - Vector1_8ed5daafe543407bbfeb01f684c16d6f: -1.05
     - Vector1_a37bb2156bd44456ba290959c6f2ea21: 0.81
     - Vector1_cd483e2cc29f47b69b03316688e9d713: 1
-    - Vector1_db839df076a04e1cb8e732a0b54c1f4b: 2.11
+    - Vector1_db839df076a04e1cb8e732a0b54c1f4b: 9.14
     - Vector1_ed0454532fef44c2b7bb3daf5ebc17a3: -5.84
     - Vector1_f819a44aabc54522b9c63a265da1ce95: 4.91
     - Vector1_f9eb66b7700d4452853317fe582524fc: 0.03
     - Vector1_fea9170c9e294c8fad002a4f8aa047ff: 0.79
     - _BaseHeight: 0.82
-    - _CutOff: 0.82
+    - _CutOff: 1.01
     - _CutOff_Height: 9.17
     - _EdgeWidth: 0.023
     - _NoiseScale: 100
