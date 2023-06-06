@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ForObject
+  m_Name: ForObject 1
   m_Shader: {fileID: -6465566751694194690, guid: e225fd63bb17b488d80f842aae88d1ca,
     type: 3}
   m_ShaderKeywords: _MAIN_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS_CASCADE _SHADOW_SOFT
@@ -57,7 +57,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Boolean_28b0e0b7fc394e6693bf5a79185fcf02: 1
+    - Boolean_28b0e0b7fc394e6693bf5a79185fcf02: 0
     - Vector1_0841bfb93a1b4432bfc259246e552fcf: 0.5
     - Vector1_125c857ffa66454db1e5a46660fe83f7: 7.56
     - Vector1_2acf13cb12b344b5acf9db6b0af71368: -0.55
