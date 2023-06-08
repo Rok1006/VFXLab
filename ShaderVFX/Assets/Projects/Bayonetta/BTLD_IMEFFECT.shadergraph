@@ -20,6 +20,9 @@
         },
         {
             "m_Id": "670f5fbd338841ee97bc6e46418d22f0"
+        },
+        {
+            "m_Id": "fa92fc1981214e4082429ec19bd8f70d"
         }
     ],
     "m_Keywords": [],
@@ -251,6 +254,9 @@
         },
         {
             "m_Id": "794f27e44d2944b0b49f88d5a45c65b4"
+        },
+        {
+            "m_Id": "81892e5976dc42a0b96938f4a3de17b5"
         }
     ],
     "m_GroupDatas": [
@@ -894,6 +900,20 @@
                     "m_Id": "2e6248a1ecca4f2991e995712e7025cf"
                 },
                 "m_SlotId": 0
+            }
+        },
+        {
+            "m_OutputSlot": {
+                "m_Node": {
+                    "m_Id": "81892e5976dc42a0b96938f4a3de17b5"
+                },
+                "m_SlotId": 0
+            },
+            "m_InputSlot": {
+                "m_Node": {
+                    "m_Id": "0f8f94956ee646ecbc191b1c0633cc24"
+                },
+                "m_SlotId": 1
             }
         },
         {
@@ -5019,7 +5039,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "6ac94384cd614cfba5c021b11f6af776",
     "m_Id": 0,
-    "m_DisplayName": "Float",
+    "m_DisplayName": "Vingette_Cover",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -5798,7 +5818,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "816087235218462d9a0eccb5373d4c92",
     "m_Id": 0,
-    "m_DisplayName": "Float",
+    "m_DisplayName": "Vingette_Cover",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -5853,6 +5873,41 @@
         "e31": 0.0,
         "e32": 0.0,
         "e33": 1.0
+    }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
+    "m_ObjectId": "81892e5976dc42a0b96938f4a3de17b5",
+    "m_Group": {
+        "m_Id": ""
+    },
+    "m_Name": "Property",
+    "m_DrawState": {
+        "m_Expanded": true,
+        "m_Position": {
+            "serializedVersion": "2",
+            "x": -1136.0,
+            "y": -346.5000305175781,
+            "width": 140.50001525878907,
+            "height": 34.0
+        }
+    },
+    "m_Slots": [
+        {
+            "m_Id": "9276a0e2421d459bacd2f0c1c4224b91"
+        }
+    ],
+    "synonyms": [],
+    "m_Precision": 0,
+    "m_PreviewExpanded": true,
+    "m_PreviewMode": 0,
+    "m_CustomColors": {
+        "m_SerializableColors": []
+    },
+    "m_Property": {
+        "m_Id": "fa92fc1981214e4082429ec19bd8f70d"
     }
 }
 
@@ -6074,6 +6129,21 @@
     "m_ShaderOutputName": "Out",
     "m_StageCapability": 3,
     "m_BareResource": false
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
+    "m_ObjectId": "9276a0e2421d459bacd2f0c1c4224b91",
+    "m_Id": 0,
+    "m_DisplayName": "Vinette_level",
+    "m_SlotType": 1,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "Out",
+    "m_StageCapability": 3,
+    "m_Value": 0.0,
+    "m_DefaultValue": 0.0,
+    "m_Labels": []
 }
 
 {
@@ -7737,7 +7807,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "c674eaf055f44c7bb488c52e46c90af2",
     "m_Id": 0,
-    "m_DisplayName": "Float (1)",
+    "m_DisplayName": "Vinette_Opacity",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -8044,7 +8114,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "d0e75fe403b545348a32fa61866fed54",
     "m_Id": 0,
-    "m_DisplayName": "Float",
+    "m_DisplayName": "Vingette_Cover",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -9316,6 +9386,29 @@
 }
 
 {
+    "m_SGVersion": 1,
+    "m_Type": "UnityEditor.ShaderGraph.Internal.Vector1ShaderProperty",
+    "m_ObjectId": "fa92fc1981214e4082429ec19bd8f70d",
+    "m_Guid": {
+        "m_GuidSerialized": "9a5e2397-d302-4045-9177-b771a4316214"
+    },
+    "m_Name": "Vinette_level",
+    "m_DefaultReferenceName": "Vector1_fa92fc1981214e4082429ec19bd8f70d",
+    "m_OverrideReferenceName": "",
+    "m_GeneratePropertyBlock": true,
+    "m_Precision": 0,
+    "overrideHLSLDeclaration": false,
+    "hlslDeclarationOverride": 0,
+    "m_Hidden": false,
+    "m_Value": 20.0,
+    "m_FloatType": 0,
+    "m_RangeValues": {
+        "x": 0.0,
+        "y": 1.0
+    }
+}
+
+{
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
     "m_ObjectId": "fac5ca9373e749bc918fefdab18b2fa6",
@@ -9452,7 +9545,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "fea510e0203d4d5a8c6907aa973d44cd",
     "m_Id": 0,
-    "m_DisplayName": "Float (1)",
+    "m_DisplayName": "Vinette_Opacity",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",

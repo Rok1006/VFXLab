@@ -1,5 +1,36 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7545860511408241077
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70afe9e12c7a7ed47911bb608a23a8ff, type: 3}
+  m_Name: SplitToning
+  m_EditorClassIdentifier: 
+  active: 1
+  m_AdvancedMode: 0
+  shadows:
+    m_OverrideState: 0
+    m_Value: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    hdr: 0
+    showAlpha: 0
+    showEyeDropper: 1
+  highlights:
+    m_OverrideState: 1
+    m_Value: {r: 0.745283, g: 0.47834632, b: 0.41834283, a: 1}
+    hdr: 0
+    showAlpha: 0
+    showEyeDropper: 1
+  balance:
+    m_OverrideState: 0
+    m_Value: 5
+    min: -100
+    max: 100
 --- !u!114 &-7284814102251672427
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -12,11 +43,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81180773991d8724ab7f2d216912b564, type: 3}
   m_Name: ChromaticAberration
   m_EditorClassIdentifier: 
-  active: 0
+  active: 1
   m_AdvancedMode: 0
   intensity:
     m_OverrideState: 1
-    m_Value: 0.25
+    m_Value: 0.152
     min: 0
     max: 1
 --- !u!114 &-4777281064860036740
@@ -157,6 +188,7 @@ MonoBehaviour:
   - {fileID: -2516558473177009846}
   - {fileID: -7284814102251672427}
   - {fileID: 534394377392577847}
+  - {fileID: -7545860511408241077}
 --- !u!114 &534394377392577847
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -176,7 +208,7 @@ MonoBehaviour:
     m_Value: 0.25
   contrast:
     m_OverrideState: 1
-    m_Value: 7
+    m_Value: 12
     min: -100
     max: 100
   colorFilter:
@@ -192,7 +224,7 @@ MonoBehaviour:
     max: 180
   saturation:
     m_OverrideState: 1
-    m_Value: 40
+    m_Value: 23
     min: -100
     max: 100
 --- !u!114 &2507135260334169462
