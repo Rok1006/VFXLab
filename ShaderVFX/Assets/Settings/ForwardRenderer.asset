@@ -39,7 +39,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5cffd8ab27274e548b64ccfd525b9cd, type: 3}
   m_Name: WaterColor
   m_EditorClassIdentifier: 
-  m_Active: 1
+  m_Active: 0
   settings:
     Event: 500
     blitMaterial: {fileID: 2100000, guid: 7414852bfde344d5699527d755383faf, type: 2}
