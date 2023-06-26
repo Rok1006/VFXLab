@@ -101,6 +101,7 @@ Material:
     - Boolean_3729a5ab0bb940bbba6565c76c3535b5: 0
     - Boolean_3dad52e9830344bdb735662dde20bd4f: 0
     - Boolean_7ac1c6d0bdeb47449b0cd779f36bb909: 0
+    - Boolean_cc49ec4c88cd458a8f26562e797292bd: 1
     - T_X: -1.82
     - T_Y: -2.79
     - Vector1_1179c4a76223465ebb414ba033b9293e: 3
@@ -142,12 +143,13 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
+    - Color_2ef91d9770fd49f68007f57702f994cc: {r: 1, g: 1, b: 1, a: 0}
     - Color_3a3599ded8db450a9af99a627509adc6: {r: 1, g: 0.7128191, b: 0.023584902,
         a: 0}
     - Color_5990bf9fc9894149af16dcf35e318a2c: {r: 2.295281, g: 0.032480333, b: 0.032480333,
         a: 0}
     - Color_88d49e6019554ed7913bd0d0c61567a3: {r: 1, g: 0, b: 0, a: 1}
-    - Color_f8428241fe8a4c4fb722c5e74961a577: {r: 1, g: 1, b: 1, a: 0}
+    - Color_f8428241fe8a4c4fb722c5e74961a577: {r: 0, g: 0.13257027, b: 1, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}

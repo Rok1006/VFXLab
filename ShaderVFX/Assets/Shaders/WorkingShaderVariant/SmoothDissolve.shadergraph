@@ -2303,9 +2303,9 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -2956.0,
+            "x": -2486.5,
             "y": 948.0,
-            "width": 208.00001525878907,
+            "width": 208.0,
             "height": 312.5
         }
     },
@@ -2918,9 +2918,9 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -2190.5,
+            "x": -1721.0,
             "y": 1166.0,
-            "width": 208.00001525878907,
+            "width": 208.0,
             "height": 278.0
         }
     },
@@ -2953,7 +2953,7 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -2678.5,
+            "x": -2209.0,
             "y": 1131.5,
             "width": 232.0,
             "height": 146.0
@@ -3182,8 +3182,8 @@
     "m_ObjectId": "69f5b9d44f2a40738d5220df1c30bdba",
     "m_Title": "Gradient",
     "m_Position": {
-        "x": -2981.0,
-        "y": 889.0
+        "x": -2511.5,
+        "y": 889.0001220703125
     }
 }
 
@@ -3357,10 +3357,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -2446.5,
+            "x": -1977.0,
             "y": 1020.0,
-            "width": 208.00001525878907,
-            "height": 302.0000305175781
+            "width": 208.0,
+            "height": 302.0
         }
     },
     "m_Slots": [
@@ -4208,7 +4208,7 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -2651.0,
+            "x": -2181.5,
             "y": 948.0,
             "width": 119.0,
             "height": 149.0

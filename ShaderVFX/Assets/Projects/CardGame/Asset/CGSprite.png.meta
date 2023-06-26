@@ -38,6 +38,24 @@ TextureImporter:
   - first:
       213: -1616879372737234253
     second: CGSprite_11
+  - first:
+      213: 7636873469452484509
+    second: CGSprite_12
+  - first:
+      213: 8024948488968486528
+    second: CGSprite_13
+  - first:
+      213: 2149845356500523009
+    second: CGSprite_14
+  - first:
+      213: -4425462847453664295
+    second: CGSprite_15
+  - first:
+      213: 2810278525731352341
+    second: CGSprite_16
+  - first:
+      213: -2469041262052214008
+    second: CGSprite_17
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -59,6 +77,7 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -67,12 +86,12 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: -1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -90,9 +109,12 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
   platformSettings:
   - serializedVersion: 3
@@ -406,6 +428,132 @@ TextureImporter:
       bones: []
       spriteID: 3ba375fe6c0bf89e0800000000000000
       internalID: -1616879372737234253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CGSprite_12
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 416
+        width: 57
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9ff15565ff9bf960800000000000000
+      internalID: 7636873469452484509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CGSprite_13
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 411
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08e36c9f1285e5f60800000000000000
+      internalID: 8024948488968486528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CGSprite_14
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 411
+        width: 64
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1089c3c16f8c5dd10800000000000000
+      internalID: 2149845356500523009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CGSprite_15
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 407
+        width: 71
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dbe5d2ccf89592c0800000000000000
+      internalID: -4425462847453664295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CGSprite_16
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 403
+        width: 71
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51f202efd6d100720800000000000000
+      internalID: 2810278525731352341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CGSprite_17
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 513
+        width: 78
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80b789fbd043cbdd0800000000000000
+      internalID: -2469041262052214008
       vertices: []
       indices: 
       edges: []

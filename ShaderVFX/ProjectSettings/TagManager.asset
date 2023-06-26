@@ -49,3 +49,9 @@ TagManager:
   - name: Effect
     uniqueID: 1799995009
     locked: 0
+  - name: Objects
+    uniqueID: 2783551347
+    locked: 0
+  - name: FrontEffect
+    uniqueID: 2052630045
+    locked: 0

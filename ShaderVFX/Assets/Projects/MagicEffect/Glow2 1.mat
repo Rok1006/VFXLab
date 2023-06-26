@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Glow2 1
   m_Shader: {fileID: 4800000, guid: b7839dad95683814aa64166edc107ae2, type: 3}
-  m_ShaderKeywords: _ALPHATEST_ON _COLORADDSUBDIFF_ON _EMISSION _RECEIVE_SHADOWS_OFF
+  m_ShaderKeywords: _ALPHATEST_ON _EMISSION _RECEIVE_SHADOWS_OFF
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -104,9 +104,9 @@ Material:
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
     - _ColorMask: 15
-    - _ColorMode: 1
+    - _ColorMode: 0
     - _Cull: 2
-    - _Cutoff: 1
+    - _Cutoff: 0.572
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
     - _DistortionBlend: 0.5
