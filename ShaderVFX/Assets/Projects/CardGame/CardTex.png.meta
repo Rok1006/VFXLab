@@ -23,6 +23,9 @@ TextureImporter:
   - first:
       213: -382643371571753231
     second: CardTex_6
+  - first:
+      213: 1587515146203721785
+    second: CardTex_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -153,7 +156,7 @@ TextureImporter:
         width: 75
         height: 67
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -174,7 +177,7 @@ TextureImporter:
         width: 57
         height: 57
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -195,7 +198,7 @@ TextureImporter:
         width: 66
         height: 65
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -216,7 +219,7 @@ TextureImporter:
         width: 70
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -237,7 +240,7 @@ TextureImporter:
         width: 68
         height: 68
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -258,7 +261,7 @@ TextureImporter:
         width: 75
         height: 72
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -266,6 +269,27 @@ TextureImporter:
       bones: []
       spriteID: 1fecec181e390baf0800000000000000
       internalID: -382643371571753231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardTex_7
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 412
+        height: 420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 930760d4d9cf70610800000000000000
+      internalID: 1587515146203721785
       vertices: []
       indices: 
       edges: []
