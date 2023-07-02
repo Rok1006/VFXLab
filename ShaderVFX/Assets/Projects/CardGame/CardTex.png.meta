@@ -26,6 +26,24 @@ TextureImporter:
   - first:
       213: 1587515146203721785
     second: CardTex_7
+  - first:
+      213: -4198539725723833374
+    second: CardTex_8
+  - first:
+      213: -8773138772217132837
+    second: CardTex_9
+  - first:
+      213: 7789028763917388751
+    second: CardTex_10
+  - first:
+      213: 5850180201644322758
+    second: CardTex_11
+  - first:
+      213: -8440247209731151020
+    second: CardTex_12
+  - first:
+      213: 8779733758127545380
+    second: CardTex_13
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -282,7 +300,7 @@ TextureImporter:
         width: 412
         height: 420
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -290,6 +308,132 @@ TextureImporter:
       bones: []
       spriteID: 930760d4d9cf70610800000000000000
       internalID: 1587515146203721785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardTex_8
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 27
+        width: 450
+        height: 468
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eb6dd04d5acbb5c0800000000000000
+      internalID: -4198539725723833374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardTex_9
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 23
+        width: 413
+        height: 418
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd88accc4cc8f3680800000000000000
+      internalID: -8773138772217132837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardTex_10
+      rect:
+        serializedVersion: 2
+        x: 1506
+        y: 665
+        width: 389
+        height: 388
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcb889a8460381c60800000000000000
+      internalID: 7789028763917388751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardTex_11
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 846
+        width: 20
+        height: 208
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cf6807d5e3003150800000000000000
+      internalID: 5850180201644322758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardTex_12
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 732
+        width: 305
+        height: 305
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45b2e7f81e73eda80800000000000000
+      internalID: -8440247209731151020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardTex_13
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 909
+        width: 34
+        height: 154
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42c92b30651e7d970800000000000000
+      internalID: 8779733758127545380
       vertices: []
       indices: 
       edges: []
