@@ -44,6 +44,18 @@ TextureImporter:
   - first:
       213: 8779733758127545380
     second: CardTex_13
+  - first:
+      213: -2977121938305030319
+    second: CardTex_14
+  - first:
+      213: -2218221262401154797
+    second: CardTex_15
+  - first:
+      213: -5672329606815309579
+    second: CardTex_16
+  - first:
+      213: -4183825381178304964
+    second: CardTex_17
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -434,6 +446,90 @@ TextureImporter:
       bones: []
       spriteID: 42c92b30651e7d970800000000000000
       internalID: 8779733758127545380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardTex_14
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 726
+        width: 423
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1576e4ede532fa6d0800000000000000
+      internalID: -2977121938305030319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardTex_15
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 506
+        width: 406
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3115c55b38b4731e0800000000000000
+      internalID: -2218221262401154797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardTex_16
+      rect:
+        serializedVersion: 2
+        x: 1612
+        y: 387
+        width: 282
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f0a7d0a646d741b0800000000000000
+      internalID: -5672329606815309579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardTex_17
+      rect:
+        serializedVersion: 2
+        x: 1293
+        y: 417
+        width: 276
+        height: 249
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c369a909bf010f5c0800000000000000
+      internalID: -4183825381178304964
       vertices: []
       indices: 
       edges: []
