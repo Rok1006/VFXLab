@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: DragonShield
+  m_Shader: {fileID: -6465566751694194690, guid: 490c76020e97a412d82cf6b4b521c289,
+    type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3001
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_449544e62f7345a593d88c7ca9405918:
+        m_Texture: {fileID: 2800000, guid: 4fd8b402b647b4322a3e23b33cca2420, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_6379f401c6344b288c98fc0bdc5181ba:
+        m_Texture: {fileID: 2800000, guid: 184e2925f43a64e7ebcc243c2129f9dc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_ab44c37bdba64b219f584ae0b399fe93_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 90729aee3ebcb46cabcf45919e21bdd9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_0e98d74df96a4c83b4fe18e5f2ccf579: -0.7
+    - Vector1_374cbe35aaf842278f2a955574a76025: -8.53
+    - Vector1_4fc618d67f7044478cbeac935c5a2acf: 0.48
+    - Vector1_91d4d50ffcf64971af7ab134605cc1bb: -2.42
+    - Vector1_a7762d7b0ec3473fbf41c88b86cb02fc: 1.64
+    - Vector1_b9d0d2fa89764c7c9091409fcb6eeb7b: 0.98
+    - Vector1_c548ccd178a84fbb91bc480911959483: -0.1
+    - Vector1_fa014ab7020d47bd963bf5edd46b050b: 0.01
+    - _CutOff_Height: 5.3
+    - _EdgeWidth: 0.05
+    - _NoiseScale: 50
+    - _NoiseStrength: 1
+    m_Colors:
+    - Color_1430980e967d4c2ba4419cee1a4c57c0: {r: 51.377857, g: 12.876843, b: 0, a: 0}
+    - Color_35b7041c22124015ba57ebf80349bf45: {r: 0.7830189, g: 0.25444663, b: 0,
+        a: 0}
+    - Color_7a9ecfa04bf744b1ace3cb04acaeff9c: {r: 1, g: 0.47641513, b: 0.41037738,
+        a: 0}
+    - Color_9f50a4f1474e4c31946fc659b2ad8199: {r: 3.9533494, g: 0.4998654, b: 0.20698158,
+        a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EdgeColor: {r: 51.98415, g: 16.51261, b: 0, a: 1}
+  m_BuildTextureStacks: []

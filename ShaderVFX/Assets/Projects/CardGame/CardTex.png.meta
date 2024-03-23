@@ -56,6 +56,12 @@ TextureImporter:
   - first:
       213: -4183825381178304964
     second: CardTex_17
+  - first:
+      213: 1033954660491988382
+    second: CardTex_18
+  - first:
+      213: -5079098370492940132
+    second: CardTex_19
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -530,6 +536,48 @@ TextureImporter:
       bones: []
       spriteID: c369a909bf010f5c0800000000000000
       internalID: -4183825381178304964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardTex_18
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 161
+        width: 278
+        height: 248
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9d0c7c1948595e00800000000000000
+      internalID: 1033954660491988382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardTex_19
+      rect:
+        serializedVersion: 2
+        x: 1516
+        y: 0
+        width: 404
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c90c08731fa6389b0800000000000000
+      internalID: -5079098370492940132
       vertices: []
       indices: 
       edges: []
