@@ -9,6 +9,6 @@ EditorBuildSettings:
     path: 
     guid: 00000000000000000000000000000000
   - enabled: 0
-    path: Assets/Projects/Bayonetta/BayonettaWaterColor.unity
+    path: Assets/0-Projects/6_Bayonetta/BayonettaWaterColor.unity
     guid: aec19d239385541429428374a22f9c24
   m_configObjects: {}
